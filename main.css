@@ -1,0 +1,11 @@
+#container {
+ width: 980px;
+ margin: 0 auto;
+ border: 1px solid black;
+}
+
+#draggable { 
+  	width: 150px;
+  	height: 150px;
+  	padding: 0.5em;
+ }
