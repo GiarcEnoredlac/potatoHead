@@ -2,10 +2,23 @@
  width: 980px;
  margin: 0 auto;
  border: 1px solid black;
+ display: inline-flex;
+ padding: 100px 0 0 50px;
+}
+.col-1 {
+	width: 30%;
+}
+.col-2 {
+	width: 70%;
+}
+.body-img {
+	margin: 0 auto;
+	float: right;
 }
 
-#draggable { 
-  	width: 150px;
+.draggable { 
+  	width: auto;
   	height: 150px;
   	padding: 0.5em;
+  	opacity: .5;
  }
