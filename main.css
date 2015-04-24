@@ -4,12 +4,16 @@
  border: 1px solid black;
  display: inline-flex;
  padding: 100px 0 0 50px;
+ overflow-x:hidden;
+ overflow-y: hidden;
 }
 .col-1 {
-	width: 30%;
+	width: 70%;
+	display: inline-flex;
+	flex-wrap: wrap;
 }
 .col-2 {
-	width: 70%;
+	width: 30%;
 }
 .body-img {
 	margin: 0 auto;
@@ -18,7 +22,7 @@
 .draggable { 
   	padding: 0.5em;
   	border: none;
-  	resize: both;
-  	overflow: hidden;
+  	/*resize: both;
+  	overflow: hidden;*/
   	background: none;
  }
